@@ -1,52 +1,73 @@
-
-
-ul {
-  width:100%;
-  height:20px;
-  text-align:center;
-}
-li {
-  display:block;
-  color: rgb(101,116,234);
-  margin-right:0px;
-  margin-left: 0px;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.box {
-  background-color: white;
-  padding: 20px;
-  text-align: center;
-  width: auto;
-}
-
-.head {
+.Navbar {
+  padding-top: 20px;
   display: flex;
-  flex-direction: row;
-  column-gap: 100px;
   justify-content: center;
+  gap: 50px;
   align-items: center;
 }
 
-button {
-  font-size: 20px;
+
+#logo {
+  cursor: pointer;
+}
+
+#word {
+  cursor: pointer;
+  opacity: 0.7;
   padding: 10px;
+  color: blue;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#word:hover {
+  opacity: 1;
+}
+
+#sign {
+  cursor: pointer;
+  border: 1px solid blue;
+  color: blue;
   border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  width: 100px;
+  text-align: center;
+  font-weight: bolder;
+  outline: 2px solid blue;
 }
 
-.sign{
-  background-color: white;
-  color: rgb(18, 147, 183);
-  border: none;
-  outline: 2px solid;
-  width: 100px;
+#sign:hover {
+  text-decoration: underline;
 }
 
-.reg{
-  background-color: #0CC5EA;
-  border: none;
-  outline: 2px solid #0CC5EA;
+#reg {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: blue;
+  font-size: 20px;
+  color: white;
   width: 100px;
+  text-align: center;
+  font-weight: bolder;
+  outline: 2px solid blue;
+}
+
+a {
+  text-decoration: none;
+  color: black
+}
+
+#reg:hover {
+  text-decoration: underline;
+}
+
+#hidden {
+  display: none;
+}
+
+.hidden {
+  display: none;
 }

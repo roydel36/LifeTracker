@@ -1,0 +1,91 @@
+#bg {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border: solid 2px navy;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    background-color: navy;
+    margin-bottom: 50px;
+}
+
+#bg p {
+    font-size: 30px;
+}
+
+#btn {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+
+#btn button {
+    background-color: white;
+    border-radius: 10px;
+    border-color: navy;
+    width: 100px;
+    height: 80px;
+    color: navy;
+    align-items: center;
+}
+
+#form {
+    background-color: white;
+    margin-top: 50px;
+}
+
+.hidden {
+    display: none;
+}
+
+#login {
+    width: 450px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: navy;
+    cursor: pointer;
+}
+
+#input {
+    height: 50px;
+    width: 450px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+}
+
+#actual1 {
+    background-color: white;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    justify-content: center;
+  
+}
+
+#nut {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 30px;
+    flex-wrap: wrap;
+}
+
+#card {
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    border: 5px solid blue;
+    font-weight: bolder;
+}

@@ -1,0 +1,67 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#register {
+    width: 446px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+
+#input {
+    height: 30px;
+    margin: 5px;
+
+}
+
+#a {
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    margin: 5px;
+    padding: 5px;
+}
+
+#welcome h1 {
+    color: blue;
+}
+
+#up {
+    color: blue;
+    cursor: pointer;
+}
+
+#up:hover {
+    text-decoration: underline;
+}
+
+.name {
+    display: flex;
+    gap: 6px;
+}
+
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+}
+
+#error {
+    color: blue;
+    float: right;
+}
+
+.hidden {
+    display: none;
+}

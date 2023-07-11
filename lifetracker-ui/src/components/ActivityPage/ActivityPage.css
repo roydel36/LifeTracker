@@ -1,0 +1,19 @@
+#message {
+    font-size: 30px;
+    color: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#content {
+    padding-top: 50px;
+}
+
+#hidden {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
